@@ -1,0 +1,1 @@
+coursera-dl -u max_from_sumy@mail.ru -p maxmax -d %2 %1
