@@ -1,4 +1,4 @@
-import _version
+#import _version
 import argparse
 import getpass
 import json
@@ -591,7 +591,7 @@ def main():
         print_(
             " Warning: built-in 'html.parser' may cause problems on Python < 2.7.3")
 
-    print_("Coursera-dl v%s (%s)" % (_version.__version__, html_parser))
+    #print_("Coursera-dl v%s (%s)" % (_version.__version__, html_parser))
 
     # search for login credentials in .netrc file if username hasn't been
     # provided in command-line args

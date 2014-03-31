@@ -3,7 +3,7 @@
 from setuptools import setup
 from os import path
 import os
-from courseradownloader import _version
+#from courseradownloader import _version
 
 
 # get the requirements from the pip requirements file
@@ -15,7 +15,7 @@ with open("requirements.txt") as f:
         if l: requirements.append(l)
 
 setup(name="coursera-dl",
-            version=_version.__version__,
+            version="1.0",
             description="Download coursera.org class videos and resources",
             long_description=open("README.md").read(),
             author="Dirk Gorissen",
