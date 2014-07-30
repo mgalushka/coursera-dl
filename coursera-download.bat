@@ -1,1 +1,1 @@
-coursera-dl -u max_from_sumy@mail.ru -p maxmax -d %2 %1
+C:\Python27\Scripts\coursera-dl.exe -u max_from_sumy@mail.ru -p maxmax -d %2 %1
